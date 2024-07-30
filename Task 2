@@ -1,3 +1,8 @@
+/*Explanation:
+Load and Preprocess Data: We load the CIFAR-10 dataset and preprocess it by normalizing pixel values and one-hot encoding the labels.
+Build and Train the Model: We build a simple CNN model and train it on the training dataset. We use a validation split to monitor the model's performance on unseen data during training.
+Evaluate the Model: We evaluate the model's performance on the test dataset using accuracy, classification reports, and confusion matrices. We also visualize the training and validation accuracy and loss curves to understand the model's learning behavior.
+Analyze Results: We analyze the results to identify any issues such as overfitting or underfitting and make necessary adjustments to the model architecture or training process.*/
 /*Data prepration*/
 import tensorflow as tf
 from tensorflow.keras.datasets import cifar10
